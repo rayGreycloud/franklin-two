@@ -1,0 +1,27 @@
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.project-list img {
+  width: 300px;
+}
+
+.project-details {
+  margin-bottom: 0;
+}
+
+.caption {
+  margin: auto 0;
+  padding: 0;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.media-title {
+  line-height: 1.0;
+  margin-bottom: 0;
+  font-weight: bold;
+}

@@ -1,0 +1,35 @@
+#landing {
+  color: white;
+  background-color: #66cdaa;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote {
+  margin: 3.0rem auto;
+  padding: 6.0rem 0 0;
+}
+
+.heading {
+  color: #1685d0;
+}
+
+.opening {
+  margin: 1.0rem auto;
+  padding: 2.0rem 0 0;
+}
+
+.site-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.site-links li {
+  margin: 1.4rem 0.8rem;
+  list-style-type: none;
+}
+
+.site-links a {
+  min-width: 7.8rem;
+}

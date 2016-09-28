@@ -1,0 +1,24 @@
+.page-title {
+  color: $title-color;
+  margin-top: $space-sm;
+  margin-bottom: $space-large;
+}
+
+.section-title {
+  color: $title-color;
+  text-align: center;
+}
+
+.section {
+  overflow: hidden;
+  padding: 2.0rem 1.6rem;
+  position: relative;
+}
+
+.btn {
+  color: $title-color;
+}
+
+.text-block {
+  margin: 1.0rem auto;
+}

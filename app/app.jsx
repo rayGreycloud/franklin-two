@@ -7,11 +7,8 @@ import About from 'About';
 import Projects from 'Projects';
 import Contact from 'Contact';
 
-// load foundation
-$(document).foundation();
-
 // app css
-require('style!css!sass!applicationStyles');
+require('!style!css!sass!applicationStyles');
 
 ReactDOM.render(
   // Add path to server if using browserHistory

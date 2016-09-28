@@ -1,0 +1,25 @@
+.top-bar, .top-bar ul {
+  background-color: $nav-background;
+
+}
+
+.top-bar {
+  .menu-text {
+    color: $nav-text-color !important;
+  }
+
+  .menu > .menu-text > a {
+    display: inline;
+    padding: 0;
+  }
+  .active-link {
+    font-weight: bold;
+  }
+}
+
+.menu {
+  color: black;
+}
+#myname {
+  list-style-type: none;
+}
