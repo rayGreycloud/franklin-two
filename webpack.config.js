@@ -3,7 +3,7 @@ var path = require('path');
 
 module.exports = {
   entry: [
-    'script!jquery/dist/jquery.min.js',    
+    'script!jquery/dist/jquery.min.js',
     './app/app.jsx'
   ],
   externals: {
@@ -47,6 +47,11 @@ module.exports = {
         test: /\.scss$/,
         loaders: ["style", "css", "sass"]
       }
+    ]
+  },
+  sassLoader: {
+    includePaths: [
+      path.resolve(__dirname, './node_modules/normalize.css/normalize.css')
     ]
   },
   devtool: 'eval-source-map'
