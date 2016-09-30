@@ -1,0 +1,21 @@
+.page {
+  background-size: cover;
+  background-position: center;
+
+  &--landing {
+    color: #FFF;
+    background-color: #66cdaa;
+  }
+
+  &--about {
+    background-color: #f7f7f7;
+  }
+
+  &--projects {
+    background-color: #ecf6f9;
+  }
+
+  &--contact {
+    background-color: #ecf9f4;
+  }
+}

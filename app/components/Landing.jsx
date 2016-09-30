@@ -32,13 +32,13 @@ const Landing = (props) => {
           </p>
           <ul className="site-links list-group">
             <li className="list-group-item">
-              <Link className="button primary" to="/about">ABOUT</Link>
+              <Link className="btn" to="/about">ABOUT</Link>
             </li>
             <li className="list-group-item">
-              <Link className="button primary" to="/projects">PROJECTS</Link>
+              <Link className="btn" to="/projects">PROJECTS</Link>
             </li>
             <li className="list-group-item">
-              <Link className="button primary" to="/contact">CONTACT</Link>
+              <Link className="btn" to="/contact">CONTACT</Link>
             </li>
 
           </ul>
