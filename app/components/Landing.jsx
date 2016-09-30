@@ -17,7 +17,7 @@ const Landing = (props) => {
         </div>
       </div>
 
-      <div className="opening">
+      <div className="opening generic-content-container">
         <hr></hr>
         <div className="heading">
           <h4>rayGreycloud</h4>
