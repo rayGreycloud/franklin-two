@@ -7,7 +7,7 @@ export class Projects extends Component {
   render() {
     return (
       <div className="container section generic-content-container" id="projects">
-        <h2 className="text-center page-title">Projects</h2>
+        <h2 className="page-title">Projects</h2>
         <div>
           <ProjectList />
         </div>

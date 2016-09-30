@@ -13,7 +13,7 @@ const CodeLinks = () => {
         <li className="list-group-item">
           <a title="@raygreycloud's GitHub Profile" href="https://github.com/rayGreycloud"
             target="_blank"
-            className="button primary ">
+            className="btn btn--orange">
             <i className="fa fa-github-square"></i>
 
             <span> My GitHub Profile</span>
@@ -21,7 +21,7 @@ const CodeLinks = () => {
         </li>
 
         <li className="list-group-item">
-          <a title="Ray Greycloud's CodePen" href="http://codepen.io/rayGreycloud" target="_blank" className="button primary">
+          <a title="Ray Greycloud's CodePen" href="http://codepen.io/rayGreycloud" target="_blank" className="btn btn--orange">
               <i className="fa fa-codepen"></i>
               <span> My CodePen Portfolio</span>
           </a>

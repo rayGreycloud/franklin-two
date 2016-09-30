@@ -6,7 +6,7 @@ const Contact = () => {
     <div id="contact" className="section generic-content-container">
 
       <div>
-        <h2 className="text-center page-title">
+        <h2 className="page-title">
           Contact Me
         </h2>
         <p className="text-center">I'm currently looking for a professional home. If you're hiring and interested in learning more about what I can do for you, send me a message, and we'll set up a time to chat.</p>
@@ -17,7 +17,7 @@ const Contact = () => {
 
           <li className="email">
             <a title="Email Me"
-              className="button primary" href="mailto:rayGreycloud@gmail.com" target="_blank">
+              className="btn btn--orange" href="mailto:rayGreycloud@gmail.com" target="_blank">
               <i className="fa fa-envelope-o"></i>
               <span> Email Me</span>
             </a>
@@ -25,7 +25,7 @@ const Contact = () => {
 
           <li>
             <a title="Tweet Me"
-              className="button primary"
+              className="btn btn--orange"
               href="https://twitter.com/rayGreycloud" target="_blank">
               <i className="fa fa-twitter-square"></i>
               <span> Tweet Me</span>
