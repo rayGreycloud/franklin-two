@@ -9,7 +9,7 @@ const Main = (props) => {
       <div>
         {props.children}
       </div>
-      <div id="footerComponent">
+      <div>
         <PageFooter />
       </div>
 
