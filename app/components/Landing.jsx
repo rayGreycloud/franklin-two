@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 const Landing = (props) => {
   return (
-    <div className="landing page--landing section" id="landing">
+    <div className="page page--landing landing" id="landing">
 
       <div className="media-object">
         <div className="media-object-section">

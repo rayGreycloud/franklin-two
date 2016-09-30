@@ -1,6 +1,9 @@
 .page {
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+  padding: 2.0rem 1.6rem;
+  position: relative;
 
   &--landing {
     color: #FFF;

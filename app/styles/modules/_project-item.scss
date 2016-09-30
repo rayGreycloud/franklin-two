@@ -1,0 +1,23 @@
+.project-item {
+
+  img {
+    width: 300px;
+  }
+
+  &__details {
+    margin-bottom: 0;
+  }
+
+  &__caption {
+    margin: auto 0;
+    padding: 0;
+    background-color: lightgrey;
+    text-align: center;
+  }
+
+  &__title {
+    line-height: 1.0;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+}

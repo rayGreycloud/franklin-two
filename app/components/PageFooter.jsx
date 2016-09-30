@@ -2,7 +2,7 @@ import React from 'react';
 
 const PageFooter = () => {
   return (
-    <div id="page-footer">
+    <div className="site-footer">
       <footer>
         <p>
           <span>Designed and developed by Ray Greycloud &copy;2016</span>
