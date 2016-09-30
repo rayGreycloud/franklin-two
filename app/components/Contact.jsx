@@ -3,7 +3,7 @@ import {Link} from 'react-router';
 
 const Contact = () => {
   return (
-    <div id="contact" className="section generic-content-container">
+    <div id="contact" className="section generic-content-container page--contact">
 
       <div>
         <h2 className="page-title">

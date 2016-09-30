@@ -1,29 +1,27 @@
+.landing {
 
-.quote {
-  margin: 3.0rem auto;
-  padding: 6.0rem 0 0;
-}
+  &__quote {
+    margin: 3.0rem auto;
+    padding: 6.0rem 0 0;
+  }
 
-.heading {
-  color: #1685d0;
-}
+  &__opening {
+    margin: 1.0rem auto;
+    padding: 2.0rem 0 0;
+  }
 
-.opening {
-  margin: 1.0rem auto;
-  padding: 2.0rem 0 0;
-}
+  &__site-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 
-.site-links {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
+    li {
+      margin: 1.4rem 0.8rem;
+      list-style-type: none;
+    }
 
-.site-links li {
-  margin: 1.4rem 0.8rem;
-  list-style-type: none;
-}
-
-.site-links a {
-  min-width: 7.8rem;
+    a {
+      min-width: 7.8rem;
+    }
+  }
 }
