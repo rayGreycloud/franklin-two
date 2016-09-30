@@ -5,7 +5,7 @@ const CodeLinks = () => {
   return (
     <div>
       <div>
-        <h3 className="section-title">
+        <h3 className="headline headline--center">
           <i className="fa fa-code"></i> More of My Code:
         </h3>
       </div>
