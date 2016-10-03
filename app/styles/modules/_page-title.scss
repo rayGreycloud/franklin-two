@@ -3,7 +3,7 @@
   font-weight: 300;
   text-align: center;
 
-  @mixin atSmall {
+  @include breakpoint(atSmall) {
     font-size: 3.75rem;
   }
 
@@ -26,7 +26,7 @@
     margin-right: auto;
     margin-bottom: .6rem;
 
-    @mixin atSmall {
+    @include breakpoint(atSmall) {
       position: relative;
       top: 8px;
       margin-right: .5rem;

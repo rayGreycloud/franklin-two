@@ -3,7 +3,7 @@
   font-weight: 300;
   color: $mainBlue;
 
-  @mixin atSmall {
+  @include breakpoint(atSmall) {
     font-size: 2.875rem;
   }
 
@@ -21,7 +21,7 @@
 
   &--small {
     font-size: 1.2rem;
-    @mixin atSmall {
+    @include breakpoint(atSmall) {
       font-size: 1.875rem;
     }
   }

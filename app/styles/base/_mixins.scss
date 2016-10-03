@@ -1,18 +1,15 @@
-@mixin atSmall {
-  @media (min-width: 530px) {
-    @content;
-  }
-}
 
-@mixin atMedium {
-  @media (min-width: 800px) {
-    @content;
+@mixin breakpoint($size) {
+  @if $size == atSmall {
+  @media (min-width: 530px) { @content; }
   }
-}
 
-@mixin atLarge {
-  @media (min-width: 1010px) {
-    @content;
+  @if $size ==  atMedium {
+  @media (min-width: 800px) { @content; }
+  }
+
+  @if $size ==  atLarge {
+  @media (min-width: 1010px) { @content; }
   }
 }
 

@@ -4,22 +4,18 @@
 @import "base/mixins";
 @import "base/global";
 
-@import "modules/nav";
-
-@import "modules/landing";
-@import "modules/about";
-
-@import "modules/project-list";
+@import "modules/btn";
 @import "modules/codelinks";
 @import "modules/contact";
-
 @import "modules/generic-content-container";
 @import "modules/headline";
-@import "modules/btn";
+@import "modules/landing";
+@import "modules/page-title";
 @import "modules/page";
+@import "modules/primary-nav";
 @import "modules/project-item";
+@import "modules/project-list";
 @import "modules/site-footer";
 @import "modules/site-header";
-@import "modules/primary-nav";
 
 @import "modules/wrapper";
