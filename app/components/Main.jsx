@@ -4,7 +4,7 @@ import PageFooter from 'PageFooter';
 
 const Main = (props) => {
   return (
-    <div className='wrapper'>
+    <div>
       <Header />
       <div>
         {props.children}
