@@ -23,7 +23,7 @@ module.exports = {
     root: __dirname,
     alias: {
       Main: 'app/components/Main.jsx',
-      Nav: 'app/components/Nav.jsx',
+      Header: 'app/components/Header.jsx',
       Landing: 'app/components/Landing.jsx',
       About: 'app/components/About.jsx',
       Projects: 'app/components/Projects.jsx',

@@ -1,11 +1,11 @@
 import React from 'react';
-import Nav from 'Nav';
+import Header from 'Header';
 import PageFooter from 'PageFooter';
 
 const Main = (props) => {
   return (
     <div className='wrapper'>
-      <Nav />
+      <Header />
       <div>
         {props.children}
       </div>
